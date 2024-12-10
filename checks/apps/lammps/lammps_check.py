@@ -8,7 +8,6 @@ import os
 import reframe as rfm
 import reframe.utility.sanity as sn
 
-
 class LAMMPSCheck(rfm.RunOnlyRegressionTest):
     scale = parameter(['small', 'large'])
     modules = ['cray-python', 'LAMMPS']
